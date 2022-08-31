@@ -24,6 +24,7 @@ public class ServiceProjectApplication {
 		servletServletRegistrationBean.addUrlMappings("*.do");
 		return servletServletRegistrationBean;
 
+		
 
     }
 	@Bean
