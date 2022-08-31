@@ -24,7 +24,8 @@ public class ServiceProjectApplication {
 		servletServletRegistrationBean.addUrlMappings("*.do");
 		return servletServletRegistrationBean;
 
-	}
+
+    }
 	@Bean
 	public MethodValidationPostProcessor methodValidationPostProcessor(){
 		return new MethodValidationPostProcessor();
