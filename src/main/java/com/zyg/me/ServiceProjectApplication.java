@@ -23,6 +23,7 @@ public class ServiceProjectApplication {
 		ServletRegistrationBean<DispatcherServlet> servletServletRegistrationBean = new ServletRegistrationBean<DispatcherServlet>(dispatcherServlet);
 		servletServletRegistrationBean.addUrlMappings("*.do");
 		return servletServletRegistrationBean;
+
 	}
 	@Bean
 	public MethodValidationPostProcessor methodValidationPostProcessor(){
