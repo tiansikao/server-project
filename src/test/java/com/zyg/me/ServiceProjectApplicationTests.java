@@ -31,11 +31,16 @@ public class ServiceProjectApplicationTests {
 
 	@Autowired
 	UserMapper userMapper;
+	
+	@Test
+	public void contextLoad(){
+	}
 
 	@Test
 	public void contextLoads( ) throws Exception {
-		String jsonStr = "我我啊";
+		String jsonStr = "法克鱿";
 		String jsonStr1 = "1我我啊1";
+		String jsonStr2 = "1我我啊";
 
 		System.out.println(
 				Base64.getEncoder().encodeToString(jsonStr.getBytes())
