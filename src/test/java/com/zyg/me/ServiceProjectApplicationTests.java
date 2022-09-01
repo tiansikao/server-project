@@ -36,7 +36,7 @@ public class ServiceProjectApplicationTests {
 	public void contextLoads( ) throws Exception {
         String jsonStr = "我HA我啊";
         String jsonStr1 = "1我我啊1";
-
+		===============;
 		System.out.println(
 				Base64.getEncoder().encodeToString(jsonStr.getBytes())
 		);
