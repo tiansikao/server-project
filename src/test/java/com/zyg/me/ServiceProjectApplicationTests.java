@@ -37,7 +37,6 @@ public class ServiceProjectApplicationTests {
         String jsonStr = "我HA我啊";
         String jsonStr1 = "1我我啊1";
         String jsonStr2 = "1我我啊1";
-
 		System.out.println(
 				Base64.getEncoder().encodeToString(jsonStr.getBytes())
 		);
@@ -53,7 +52,7 @@ public class ServiceProjectApplicationTests {
 
     @Test
     public void contextLoad2() throws Exception {
-        String jsonStr = "我HA我啊";
+        String jsonStr = "我HAww我啊";
         String jsonStr1 = "1我我啊1";
 
     }

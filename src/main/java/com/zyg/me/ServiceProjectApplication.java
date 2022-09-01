@@ -9,6 +9,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.validation.beanvalidation.MethodValidationPostProcessor;
 import org.springframework.web.servlet.DispatcherServlet;
 
+/**
+ * 主类
+ */
 @SpringBootApplication
 @MapperScan("com.zyg.me.domain.mapper")
 @EnableAutoConfiguration
