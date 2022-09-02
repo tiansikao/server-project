@@ -34,7 +34,7 @@ public class ServiceProjectApplicationTests {
 
 	@Test
 	public void contextLoads( ) throws Exception {
-        String jsonStr = "我HA我啊";
+        String jsonStr = "我aaaHA我啊";
         String jsonStr1 = "bb";
         String jsonStr2 = "1我我啊1";
 
