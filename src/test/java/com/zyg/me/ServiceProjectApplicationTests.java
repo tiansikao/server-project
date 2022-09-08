@@ -53,7 +53,7 @@ public class ServiceProjectApplicationTests {
 
     @Test
     public void contextLoad2() throws Exception {
-        String jsonStr = "a1a";
+        String jsonStr = "111";
         String jsonStr1 = "bb";
 
     }
