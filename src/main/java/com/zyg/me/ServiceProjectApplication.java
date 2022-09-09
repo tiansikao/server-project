@@ -10,7 +10,7 @@ import org.springframework.validation.beanvalidation.MethodValidationPostProcess
 import org.springframework.web.servlet.DispatcherServlet;
 
 /**
- * 主类a
+ * 主类c
  */
 @SpringBootApplication
 @MapperScan("com.zyg.me.domain.mapper")
