@@ -17,7 +17,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 @EnableAutoConfiguration
 public class ServiceProjectApplication {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args)  {//111111
         SpringApplication.run(ServiceProjectApplication.class, args);
     }
 
