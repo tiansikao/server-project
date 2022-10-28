@@ -14,10 +14,10 @@ import java.util.List;
 @Service
 public class RolesPermissionsServiceImpl implements RolesPermissionsService {
 
-    private final RolesPermissionsMapper rolesPermissionsMapper;
+    private final RolesPermissionsMapper rolesPermissionsMapper;//local
 
     @Autowired
-    public RolesPermissionsServiceImpl(RolesPermissionsMapper r1){
+    public RolesPermissionsServiceImpl(RolesPermissionsMapper r1){//local
         this.rolesPermissionsMapper =r1;
     }
 
