@@ -22,9 +22,9 @@ public class RolesPermissionsServiceImpl implements RolesPermissionsService {
     }
 
     @Override
-    public List<RolesPermissions> selectByRoleName(String name) {
+    public List<RolesPermissions> selectByRoleName(String name) {//origin
 
-        RolesPermissionsExample permissionsExample =new RolesPermissionsExample();
+        RolesPermissionsExample permissionsExample =new RolesPermissionsExample();//origin
         permissionsExample.createCriteria().andRoleNameEqualTo(name);
 
         return rolesPermissionsMapper.selectByExample(permissionsExample);
