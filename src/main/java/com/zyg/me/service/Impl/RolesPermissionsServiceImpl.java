@@ -25,8 +25,8 @@ public class RolesPermissionsServiceImpl implements RolesPermissionsService {
     public List<RolesPermissions> selectByRoleName(String name) {
 
         RolesPermissionsExample permissionsExample =new RolesPermissionsExample();
-        permissionsExample.createCriteria().andRoleNameEqualTo(name);
+        permissionsExample.createCriteria().andRoleNameEqualTo(name);//origin
 
-        return rolesPermissionsMapper.selectByExample(permissionsExample);
+        return rolesPermissionsMapper.selectByExample(permissionsExample);//origin
     }
 }
