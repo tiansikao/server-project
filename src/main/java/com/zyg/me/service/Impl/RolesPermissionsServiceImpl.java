@@ -21,9 +21,8 @@ public class RolesPermissionsServiceImpl implements RolesPermissionsService {
         this.rolesPermissionsMapper =r1;
     }
 
-    //11111111111111
     @Override
-    public List<RolesPermissions> selectByRoleName(String name) {//origin1111333
+    public List<RolesPermissions> selectByRoleName(String name) {//origin1111222
 
         RolesPermissionsExample permissionsExample =new RolesPermissionsExample();//origin
         permissionsExample.createCriteria().andRoleNameEqualTo(name);
